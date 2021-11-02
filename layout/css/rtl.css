@@ -1,0 +1,308 @@
+/* Start Global modify */
+
+html,
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+.show-pass,
+.show-pass-log {
+    left: 18px;
+    right: auto;
+}
+
+.ads {
+    padding-left: 0
+}
+
+
+/* End Global modify */
+
+
+/* Start Navbar */
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    text-align: right
+}
+
+.navbar .navbar-nav ul li:first-of-type {
+    margin-right: 7px;
+}
+
+.navbar form i {
+    left: 13px;
+    right: auto
+}
+
+.f-nav .global-nav-content {
+    left: 0;
+}
+
+.f-nav .global-nav-content .dropdown {
+    float: right;
+}
+
+.f-nav .global-nav-content .dropdown {
+    float: right;
+    border-right: 1px;
+    border-left-style: solid;
+    border-left-color: #1b0606;
+}
+
+.f-nav .global-nav-content .acc-content {
+    left: 0;
+}
+
+
+/* End Navbar */
+
+
+/* Start Sellar Page */
+
+.page-wrapper .form-container .more-info-login a:last-of-type {
+    float: left;
+    clear: both
+}
+
+
+/* Start Home Page */
+
+.products-home .title-sec-container h3,
+.title-info h3 {
+    float: right;
+    clear: both
+}
+
+.products-home .view-more,
+.title-container .view-more {
+    float: left;
+}
+
+.page-container .categories .cat-title::before {
+    left: auto;
+    right: 5px;
+}
+
+.page-container .categories .cat-title a {
+    margin-right: 26px;
+}
+
+.header-brand .h-brand {
+    left: auto;
+    right: 34px
+}
+
+.page-container .categories .cat-list-box .cat-name img {
+    left: auto
+}
+
+.page-container .categories .cat-list-box .cat-name a {
+    right: 32px;
+    left: auto
+}
+
+.right-c {
+    padding-right: 8px !important;
+}
+
+.left-c {
+    padding-right: 0 !important;
+}
+
+
+/* End Home */
+
+
+/* Start Cart */
+
+.my-container {
+    direction: rtl;
+}
+
+.my-container>h1,
+.my-container>h2 {
+    direction: rtl;
+    text-align: right;
+}
+
+.items .header,
+.items .header>.item {
+    direction: rtl;
+}
+
+.items .ln>.item,
+.resume>.row.total:first-child,
+.resume>.row.total {
+    text-align: right;
+}
+
+.clean-cart {
+    text-align: left;
+}
+
+.resume>.row.total {
+    float: left;
+}
+
+.resume>.row>label {
+    min-width: 100%;
+    margin-left: 214px;
+}
+
+
+/* End Cart */
+
+
+/* start order */
+
+.order-navbar .nav-b {
+    float: right;
+}
+
+.order-navbar .section-header {
+    float: left;
+}
+
+.order-navbar .section-header span {
+    padding-right: 38px;
+    padding-left: 11px;
+}
+
+.order-navbar div i {
+    padding-right: 0 !important;
+}
+
+.order-content .sec-con-1 input[type="radio"],
+.order-content .sec-con-2 input[type="radio"],
+.order-content .sec-con-3 input[type="radio"] {
+    right: 23px;
+}
+
+.order-content .sec-con-1 p,
+.order-content .sec-con-2 p {
+    margin-right: 44px;
+}
+
+.order-content .sec-con-3 img {
+    margin-right: 44px;
+}
+
+.order-content .fa-check-circle {
+    margin-left: 5px;
+}
+
+.card-done .alert_cus {
+    border-right: 5px;
+    border-right-style: solid;
+    border-right-color: #f00;
+    border-left: 0;
+}
+
+
+/* end order */
+
+
+/* start categories */
+
+.sidebar-wrapper .categories-all {
+    right: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .page-wrapper-cat .page-content {
+        padding-right: 177px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .page-wrapper-cat .page-content {
+        padding-left: 0px;
+    }
+}
+
+.page-wrapper.toggled .l-navbar {
+    right: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .page-wrapper.toggled .l-content {
+        padding-right: 300px;
+        padding-left: 0;
+    }
+    .page-wrapper.toggled .page-home {
+        padding-right: 300px;
+        padding-left: 0;
+    }
+}
+
+#show-sidebar {
+    right: 0;
+    left: auto;
+}
+
+.page-wrapper.toggled #show-sidebar {
+    right: -40px;
+    left: auto;
+}
+
+.sidebar-wrapper {
+    right: -300px;
+    left: auto;
+}
+
+.rating_a span i {
+    padding-left: 30px;
+    padding-right: 0;
+}
+
+.sidebar-wrapper .sidebar-menu li a::before {
+    margin: 0 10px;
+}
+
+.product-cat-con .product-rat span {
+    float: left;
+    clear: both;
+}
+
+
+/* End categories */
+
+
+/* start search */
+
+.search_result .product-s-info .rating-p {
+    text-align: left;
+}
+
+
+/* End search */
+
+
+/* Start products */
+
+.alert_for_disabled {
+    left: 404px;
+}
+
+.alert_for_disabled::after {
+    left: 35px;
+    top: 35px;
+}
+
+.rating-sam-product {
+    text-align: left;
+}
+
+
+/* start footer */
+
+.footer .content-foot-info.first {
+    border: none;
+}
+
+.footer .content-foot-info.last {
+    border-right: 1px;
+    border-right-style: solid;
+    border-right-color: #d7cfcf;
+}

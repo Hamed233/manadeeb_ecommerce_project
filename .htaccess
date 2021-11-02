@@ -1,0 +1,21 @@
+ErrorDocument 404 /bracelet/404.php
+<Files magic>
+	ForceType application/x-httpd-php5
+</Files>
+Header set X-Robots-Tag "noindex, noarchive, nosnippet"
+# Ensure we are using HTTPS version of the site.
+RewriteCond %{HTTPS} !on
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# Ensure all URLs have a trailing slash.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /bracelet/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /bracelet/index.php [L]
+</IfModule>
+Header append Vary: User-Agent
+<FilesMatch ".(flv|gif|jpg|jpeg|png|ico|swf|js|css|pdf)$">
+	Header set Cache-Control "max-age=28800"
+</FilesMatch>

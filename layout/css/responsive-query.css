@@ -1,0 +1,228 @@
+/* ---- Header ---- */
+
+@media (min-width: 1200px) {
+    .header-con {
+        max-width: 1315px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        top: 45px;
+    }
+}
+
+
+/* ---- Home Responsive ---- */
+
+@media (max-width: 1000px) {
+    .categories_t,
+    .user_b {
+        display: none
+    }
+    .header-brand .h-brand {
+        top: 27px;
+        left: 0px;
+    }
+}
+
+@media (max-width: 361px) {
+    .header .header-brand {
+        width: 352px;
+    }
+}
+
+
+/* ---- Start Sellar Page ---- */
+
+@media (max-width: 900px) {
+    .page-wrapper .form-container {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .box {
+        width: 89%;
+        height: 81px;
+    }
+    .edit-product,
+    .del-product {
+        width: 100%;
+        margin: 2px 0;
+    }
+    .cover .btn {
+        margin: 0;
+        margin-top: 0;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .errors {
+        width: 100% !important;
+    }
+}
+
+
+/* ---- Start Categories Page ---- */
+
+@media screen and (min-width: 768px) {
+    .page-wrapper-cat .page-content {
+        padding-left: 259px;
+    }
+}
+
+@media (max-width: 900px) {
+    .page-wrapper-cat .sidebar-wrapper {
+        display: none;
+    }
+    .categories-content-all {}
+    .page-wrapper-cat .page-content {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .categories-content-all .col-s-trick {
+        padding-left: 19px;
+    }
+    .categories-content-all {
+        margin: 0;
+        margin-top: 15px
+    }
+}
+
+@media (max-width: 901px) {
+    .page-wrapper-cat .page-content {
+        padding-top: 29px;
+        padding-right: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .page-wrapper.toggled .l-content {
+        padding-left: 300px;
+    }
+    .page-wrapper.toggled .page-home {
+        padding-left: 300px;
+    }
+}
+
+
+/* ---------- start cart ------------ */
+
+@media screen and (min-width: 496px) {
+    .resume>.row>label {
+        margin-top: 0;
+    }
+    .resume>.row.total {
+        margin-left: -2px;
+    }
+    .clean-cart {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .items .header>.item {
+        width: 29.47%;
+    }
+    .items .header>.quantity {
+        width: 7.315%;
+    }
+    .items .header>.subtotal,
+    .items .header>.unit-price {
+        width: 12.105%;
+    }
+}
+
+
+/* ---------- start order ------------ */
+
+@media screen and (max-width: 500px) {
+    .order-navbar div:not(.nav-b) {
+        font-size: 7px;
+    }
+    .order-navbar div i {
+        font-size: 23px;
+        top: 28px;
+    }
+    .my_orders_empty .fa-cart-arrow-down {
+        font-size: 129px;
+    }
+    .my_orders_empty .btn {
+        min-width: 178px;
+        font-size: 21px;
+    }
+    .my_orders_empty .message_empty {
+        width: 339px;
+        font-size: 14px;
+    }
+    .done-head {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .order-navbar div:not(.nav-b) {
+        font-size: 7px;
+    }
+    .order-navbar div i {
+        font-size: 23px;
+        top: 28px;
+    }
+    .alert_cus {
+        min-height: 52px;
+    }
+}
+
+
+/* -------------------- start products ---------------------- */
+
+@media (max-width: 800px) {
+    .products-home .product-container ul li {
+        width: 49%
+    }
+    .products-home,
+    .container-radius {
+        margin: 12px;
+    }
+    .includes_product {
+        display: none;
+    }
+    .for_sm {
+        display: block;
+    }
+    .for_lg {
+        display: none;
+    }
+    .product-colors,
+    .quantity-product {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .footer .g-section {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-top: 15px
+    }
+    footer p {
+        font-size: 12px;
+    }
+}
+
+
+/* -------------------- start footer ---------------------- */
+
+@media screen and (max-width: 800px) {
+    .ads {
+        display: none;
+    }
+    .header-brand {
+        text-align: center;
+    }
+}

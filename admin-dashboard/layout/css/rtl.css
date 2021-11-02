@@ -1,0 +1,79 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: right;
+}
+
+.show-pass {
+    left: 28px;
+    right: auto;
+}
+
+.form-content {
+    direction: rtl;
+    text-align: right;
+}
+
+.dropdown {
+    text-align: right;
+}
+
+
+/* start dashboard */
+
+.page-heading {
+    text-align: right;
+}
+
+.first-block .panel-card .panel-heading {
+    text-align: right;
+}
+
+.first-block .panel-card .panel-heading i {
+    float: right;
+    padding: 5px;
+}
+
+.first-block .panel-card .panel-heading span {
+    float: left;
+}
+
+.info_acc a {
+    text-align: right;
+}
+
+.alert {
+    text-align: right;
+}
+
+.first-block .panel-card {
+    direction: rtl;
+}
+
+
+/* End dashboard */
+
+
+/* star categories */
+
+.categories,
+.container-fluid {
+    direction: rtl !important;
+}
+
+.form-content .form-group {
+    text-align: right;
+}
+
+
+/* End categories */
+
+
+/* start products */
+
+.container-special {
+    direction: rtl;
+}
